@@ -47,7 +47,7 @@ class GameObject:
 
     def __init__(self) -> None:
         """Инициализирует базовые атрибуты объекта,
-        такие как его позиция и цвет.
+        такие как позиция и цвет.
         """
         self.position = SCREEN_CENTER
         self.body_color = None
